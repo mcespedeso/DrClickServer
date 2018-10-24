@@ -45,7 +45,7 @@ Esto generará la base de datos inicial, y a partir de este punto cualquier camb
 
 Liquibase se ejecuta automáticamente durante el inicio del servidor y actualiza la base de datos (si es necesario).
 
-### Paso 2, compilar la aplicación
+### Paso 3, compilar la aplicación
 
 Desde el directorio de DrClick, ejecutar:
 
@@ -53,7 +53,7 @@ Desde el directorio de DrClick, ejecutar:
 mvn clean package
 ```
 
-### Paso 3, ejecutas la aplicación
+### Paso 4, ejecutas la aplicación
 
 Iniciar el servidor:
 
