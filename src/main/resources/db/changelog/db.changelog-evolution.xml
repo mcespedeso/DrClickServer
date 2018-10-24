@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <!--
+    	Este script crea las tablas para almacenar las  autenticaciones oauth2
+    -->
+    <changeSet id="2018-10-23T16:15" author="mcespedes">
+        <sqlFile path="sql/2018-10-23T16:15.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+    <!--
+    	Este script crea las tablas para almacenar los usuarios y roles por usuario
+    -->
+    <changeSet id="2018-10-24T10:00" author="mcespedes">
+        <sqlFile path="sql/2018-10-24T10:00.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+    
+</databaseChangeLog>
