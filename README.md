@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/SOLUMED/DrClickServer.svg?branch=develop)](https://travis-ci.org/SOLUMED/DrClickServer)
+
 # DrClick-Server
 Solumed ha desarrollado una aplicación llamada Dr-Click, que busca
 intercambiar información entre medicos y pacientes mediante la telemedicina.
